@@ -1,0 +1,39 @@
+<training organization="MakingDevs" xmlns:essential="Essential" xmlns:intermediate="Intermediate" xmlns:master="Mastering">
+  <roadmap>
+    <category name="Experto en Springframework">
+      <master:course duration="10" sessions="2" name="Procesamiento con Spring Batch"/>
+      <intermediate:course duration="10" sessions="2" name="Aplicaciones web con Springframework y jQuery"/>
+      <master:course duration="10" sessions="2" name="Seguridad en aplicaciones Java con Spring Security"/>
+      <intermediate:course duration="10" sessions="2" name="JEE e integración con Springframework"/>
+      <essential:course duration="10" sessions="2" name="Diseño de aplicaciones con Springframework"/>
+      <essential:course duration="10" sessions="2" name="Acceso a datos con Springframework"/>
+      <essential:course duration="10" sessions="2" name="Desarrollo web con Springframework"/>
+    </category>
+    <category name="Técnicas y métodos ágiles">
+      <intermediate:course duration="10" sessions="2" name="Programación funcional aplicada"/>
+      <essential:course duration="10" sessions="2" name="Principios ágiles para desarrolladores de software"/>
+      <intermediate:course duration="10" sessions="2" name="Testing de aplicaciones"/>
+      <master:course duration="10" sessions="2" name="Diseñando software con TDD y ATDD"/>
+      <master:course duration="10" sessions="2" name="Técnicas y métodos de integración continua"/>
+    </category>
+    <category name="El ecosistema Groovy">
+      <intermediate:course duration="10" sessions="2" name="Productividad con Grails"/>
+      <master:course duration="10" sessions="2" name="Construyendo software con Gradle"/>
+      <master:course duration="10" sessions="2" name="Modularización y plugins en Grails"/>
+      <intermediate:course duration="10" sessions="2" name="Productividad con Groovy"/>
+      <essential:course duration="10" sessions="2" name="El lenguaje dinámico Groovy"/>
+      <essential:course duration="10" sessions="2" name="Desarrollo de aplicaciones con Grails"/>
+    </category>
+    <category name="Desarrollo web con Javascript">
+      <essential:course duration="10" sessions="2" name="Desarrollo web con jQuery"/>
+      <intermediate:course duration="10" sessions="2" name="Desarrollo de Single Page Applications"/>
+      <master:course duration="10" sessions="2" name="Aplicaciones web con Springframework y jQuery"/>
+      <intermediate:course duration="10" sessions="2" name="CoffeeScript en aplicaciones web"/>
+    </category>
+    <category name="Desarrollo con Scala">
+      <intermediate:course duration="10" sessions="2" name="Desarrollo web con Scala"/>
+      <master:course duration="10" sessions="2" name="Programación avanzada con Scala"/>
+      <essential:course duration="10" sessions="2" name="Fundamentos del lenguaje Scala"/>
+    </category>
+  </roadmap>
+</training>

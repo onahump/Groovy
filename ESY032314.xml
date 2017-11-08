@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:fa="http://www.itcomplements.com/cfd/v1" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd" version="3.2" serie="ESY" folio="032314" fecha="2017-08-11T12:33:48" sello="acdhuD7G55ehpRKMUN6EqJ8HK3X5ELDHZL4A4uZ6vmhfF9i4S73V8MvRaLi4zngWKpCnPihuDJODjdGy36iltiusFNZJVGv4Ojgxsbv2Y9UiyJ5Iqz8lisvDmpApB2ruCReKnmff38mB8UzB0UCwrXAOWYgG0hGa299yV3Q/tOIMJcgWIo+p29hbAG1US+y0AzPA3ELtiCbzyrwtV8LtpLA+tFHtfFk4iXTrcK7WAEG94y9MlazGRY0CdIdLSOD4DBKFVr0h+gFBOm4fk5PCWsF2KzJb6xDT9MNezFe/ReWuZOpK7npmTQinhi9zLwMGBVsiN2bVbdnMByReEsO3EQ==" formaDePago="Pago en una sola exhibiciÃ³n" noCertificado="00001000000404372819" certificado="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" condicionesDePago="Contado" subTotal="326.67" descuento="2.10" total="376.50" metodoDePago="01-EFECTIVO" tipoDeComprobante="ingreso" LugarExpedicion="Mexico">
+     <cfdi:Emisor rfc="PDA670119AB9" nombre="Papelera Dabo S.A de C.V.">
+           <cfdi:DomicilioFiscal calle="Calzada de Tlalpan" noExterior="1260" noInterior="del 2 al 4to piso Loc 1" colonia="Col. Albert" referencia="Entre Benito Juarez y Emilio Carranza" municipio="Benito Juarez" estado="Ciudad de Mexico" pais="Mexico" codigoPostal="03560"/><cfdi:ExpedidoEn calle="canal de tezontle 143-b" noExterior="143-b" colonia="Col.dr. alfonzo ortiz tirado" municipio="Iztapalapa" estado="CIUDAD DE MEXICO" pais="Mexico" codigoPostal="0"/><cfdi:RegimenFiscal Regimen="Regimen General de Ley Personas Morales"/>
+     </cfdi:Emisor>
+     <cfdi:Receptor rfc="MDE130712JA6" nombre="MAKING DEVS SC">
+           <cfdi:Domicilio calle="CALZADA ERMITA IZTAPALAPA No.278 Int.501" colonia="SINATEL" municipio="Iztapalapa , Ciudad de Mexico" pais="Mexico" codigoPostal="09470"/>
+     </cfdi:Receptor>
+     <cfdi:Conceptos>
+     <cfdi:Concepto cantidad="10" unidad="PIEZA" descripcion="CARTONCILLO 50X70CM-PE-1928-BLANCO" valorUnitario="2.08" importe="20.80"/>
+<cfdi:Concepto cantidad="1" unidad="PIEZA" descripcion="PASTA P/MOLDEAR PL-B5517-SV-[ESTUCHE]" valorUnitario="59.33" importe="59.33"/>
+<cfdi:Concepto cantidad="2" unidad="PIEZA" descripcion="CRAYON CERA JUMBO -52-0324-[CAJILLA]" valorUnitario="57.19" importe="114.38"/>
+<cfdi:Concepto cantidad="1" unidad="PIEZA" descripcion="PLUMON P.ANCHA COL-846020-.-[ESTUCHE]" valorUnitario="74.96" importe="74.96"/>
+<cfdi:Concepto cantidad="1" unidad="PIEZA" descripcion="PLUMONES COLOR PEP-845722-.-[ESTUCHE]" valorUnitario="57.20" importe="57.20"/>
+</cfdi:Conceptos>
+	<cfdi:Impuestos totalImpuestosTrasladados="51.93"><cfdi:Traslados>
+        <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="51.93"/>
+</cfdi:Traslados></cfdi:Impuestos>
+	<cfdi:Complemento>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/TimbreFiscalDigital/TimbreFiscalDigital.xsd" version="1.0" UUID="0D763360-A702-4C36-B0CE-04FD5B4A6FDC" FechaTimbrado="2017-08-11T12:34:07" selloCFD="acdhuD7G55ehpRKMUN6EqJ8HK3X5ELDHZL4A4uZ6vmhfF9i4S73V8MvRaLi4zngWKpCnPihuDJODjdGy36iltiusFNZJVGv4Ojgxsbv2Y9UiyJ5Iqz8lisvDmpApB2ruCReKnmff38mB8UzB0UCwrXAOWYgG0hGa299yV3Q/tOIMJcgWIo+p29hbAG1US+y0AzPA3ELtiCbzyrwtV8LtpLA+tFHtfFk4iXTrcK7WAEG94y9MlazGRY0CdIdLSOD4DBKFVr0h+gFBOm4fk5PCWsF2KzJb6xDT9MNezFe/ReWuZOpK7npmTQinhi9zLwMGBVsiN2bVbdnMByReEsO3EQ==" noCertificadoSAT="00001000000404481161" selloSAT="y2rL9K6uGvUwzITUoMxEeapbZhas3/He91RtCesaacevwCSnMr6EmeA9+YO/UM0g97FxukT6LPjvvp/4A2gijKnDAcslRWtolTxcmjwAjMtclCNPt6VLLoz6t3zhdaVkh3odeyHqEDNsmAHDZmaA6j84nEcgeVjeQMASUVOjr0Vc+RpTQJvi3KwoTMzpxWkUIrhmg6aqG9CtYMo8HvMBDgwCr6Mmbkxv3x/lyEAOYUQq31ePvUadshDVNv0xfCt6sA/l+G0p/UlAczGFHXaTwRHfB3kTkTZGjmvOy1hsUWYtjJF+WKas/DEBq80XhCSV6YtoTNdSayHzrNH2jgBnJg=="/></cfdi:Complemento>
+<cfdi:Addenda>
+       <fa:Datos xmlns:fa="http://www.itcomplements.com/cfd/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.itcomplements.com/cfd/v1 http://www.itcomplements.com/cfd/v1/fav1.xsd" version="1.0" leyenda="" tipoDocumento="FACTURA" status="1" mail="fico@makingdevs.com" subDocumento="" telefono="(55)25950100" numCliente="127190" folioSat="" totalDeImpuestosRetenidosMx="" totalDeImpuestosTrasladadosMX="51.93" porcentajeDescuentoMayoreo="10.00" descuentoMayoreo="2.10" porcentajeDeDescuentoEspecial="0.00" importeDescuentoEspecial="0.00" porcentajeDeDescuentoTotal="0.00" importeDescuentoTotal="2.10" subtotalSinDescuentos="326.67" subtotalConDescuentosSinIva="324.57" totalMx="376.50" cantidadConLetra="TRESCIENTOS SETENTA Y SEIS PESOS 50/100 M.N." AutorizacionPedido="" PedidoAgente="" PedidoNoPaquetes="" PedidoDepto="" PedidoFormaPago="" PedidoFlete="" NotaMostrador="2254299" TotalExentos="" DescuentoExentoXMayoreo="" ProductosConOferta="1 Productos con oferta" TipoComprobante="" NombreCajero="MARIA ESTHER GUTIERREZ JURADO(CAJERO)" DeptoVenta="AUTOSERVICIO" DocumentoCredito="" MensajeMesesSinIntereses="" MensajeChequeDevuelto="" MensajeGeneralFinal="Nota: Despues de ocho dias no se hacen cambios o devoluciones. En consumibles de computo, papeles extendidos sueltos y libros no se hacen cambios ni devoluciones" MensajeFinal="" Pedido="" LugarFecha="CIUDAD DE MEXICO,  A 10 DE AGOSTO DEL 2017" tienda="Rojo Gomez" telefonoEx="25950100" Operacion="01-05584739 12:30 AUT-1417278" totart="5 Articulo(s)" impresora="caja_99RG" fechab="2017-08-11" ano="2017" mes="AGOSTO" dia="11" hora="12:33:48">
+       <fa:AddendaComercial>
+          <fa:EntregadoEn nombre="" calle="" noExterior="" noInterior="" colonia="" localidad="" referencia="" municipio="" estado="" pais="" codigoPostal="" telefono=""/>   
+       </fa:AddendaComercial>
+	      <fa:Detalle>      
+      	<fa:Detalle codigo=" 00246101026486 26486 1             i16" unidad=" PIEZA" codigo1="26486 1  " Cantidad="  10 " descripcion="CARTONCILLO 50X70CM-PE-1928-BLANCO           " PUnitario="     2.08 " DMay="  10.00" DEsp="  0.00" Importe="         20.80" SKU="  10      2.08  10.00  0.00         20.80"/>
+<fa:Detalle codigo=" 00653569161035 9091 2              i16" unidad=" PIEZA" codigo1="9091 2   " Cantidad="   1 " descripcion="PASTA P/MOLDEAR PL-B5517-SV-[ESTUCHE]        " PUnitario="    59.33 " DMay="   0.00" DEsp="  0.00" Importe="         59.33" SKU="   1     59.33   0.00  0.00         59.33"/>
+<fa:Detalle codigo=" 07501058201430 11209 1             i16" unidad=" PIEZA" codigo1="11209 1  " Cantidad="   2 " descripcion="CRAYON CERA JUMBO -52-0324-[CAJILLA]         " PUnitario="    57.19 " DMay="   0.00" DEsp="  0.00" Importe="        114.38" SKU="   2     57.19   0.00  0.00        114.38"/>
+<fa:Detalle codigo=" 03154148460206 51403 1             i16" unidad=" PIEZA" codigo1="51403 1  " Cantidad="   1 " descripcion="PLUMON P.ANCHA COL-846020-.-[ESTUCHE]        " PUnitario="    74.96 " DMay="   0.00" DEsp="  0.00" Importe="         74.96" SKU="   1     74.96   0.00  0.00         74.96"/>
+<fa:Detalle codigo=" 03154148457220 53088 1             i16" unidad=" PIEZA" codigo1="53088 1  " Cantidad="   1 " descripcion="PLUMONES COLOR PEP-845722-.-[ESTUCHE]        " PUnitario="    57.20 " DMay="   0.00" DEsp="  0.00" Importe="         57.20" SKU="   1     57.20   0.00  0.00         57.20"/>
+</fa:Detalle>
+      	 <fa:CadenaOriginal>
+	       ||3.2|2017-08-11T12:33:48|ingreso|Pago en una sola exhibiciÃ³n|Contado|326.67|2.10|376.50|01-EFECTIVO|Mexico|PDA670119AB9|Papelera Dabo S.A de C.V.|Calzada de Tlalpan|1260|del 2 al 4to piso Loc 1|Col. Albert|Entre Benito Juarez y Emilio Carranza|Benito Juarez|Ciudad de Mexico|Mexico|03560|canal de tezontle 143-b|143-b|Col.dr. alfonzo ortiz tirado|Iztapalapa|CIUDAD DE MEXICO|Mexico|0|Regimen General de Ley Personas Morales|MDE130712JA6|MAKING DEVS SC|CALZADA ERMITA IZTAPALAPA No.278 Int.501|SINATEL|Iztapalapa , Ciudad de Mexico|Mexico|09470|10|PIEZA|CARTONCILLO 50X70CM-PE-1928-BLANCO|2.08|20.80|1|PIEZA|PASTA P/MOLDEAR PL-B5517-SV-[ESTUCHE]|59.33|59.33|2|PIEZA|CRAYON CERA JUMBO -52-0324-[CAJILLA]|57.19|114.38|1|PIEZA|PLUMON P.ANCHA COL-846020-.-[ESTUCHE]|74.96|74.96|1|PIEZA|PLUMONES COLOR PEP-845722-.-[ESTUCHE]|57.20|57.20|IVA|16.00|51.93|51.93||</fa:CadenaOriginal>
+       <fa:hfd version="1.0">~|0|Z0 Xi
+~K1="Arial"  9
+~K2="Arial"  5
+~K3="Arial" n 13
+~K4="Arial"  4
+~K5="Arial" 7 100.100.100
+~K6="Arial" 13 100.0.0
+~K7="Arial" 6 100.0.0
+~K8="Arial" 12 
+~K9="Arial" 7 
+~&lt;P'=1' A "LOGO2_PDA670119AB9.jpg"
+~&gt;
+~H|0|
+~[2 30 29 23 23 23 25 C10
+
+~#
+~#
+
+~[30
+~#D M350.0 "LOGO_PDA670119AB9.bmp";	
+~]
+
+
+
+~#
+~[20
+~#|e+ 15.1 l50 ulr0|M55.55 Jv50 Jc @7
+ 
+
+MATRIZ
+~#|e+ | M5.5 Jv50 Jc @2
+CALZADA DE TLALPAN 1260 DEL 2 AL 4TO  
+~#|e+ | M5.5 Jv50 Jc @2
+PISO LOC 1, COL. ALBERT
+~#|e+ | M5.5 Jv50 Jc @2
+DELEG. BENITO JUAREZ
+~#|e+ | M5.5 Jv50 Jc @2
+CIUDAD DE MEXICO,. C.P. 03560
+~#|e+ | M5.5 Jv50 Jc @2
+TEL. 2595-0100 OPCION 2-1
+~#|e+ | M5.5 Jv50 Jc @2
+FAX EXT. 2210
+~#|e+ | M35.35 Jv50 Jc @2
+Regimen General de Ley Personas Morales
+~#|e+ | M25.25 Jv50 Jr @2
+~#|e+ | M35.35 Jv50 Jr @2
+PAPELERA DABO, S.A. DE C.V.
+
+~]
+
+
+
+~#
+~[20
+~#|e+ 15.1 l50 url0 |M55.55 Jv50 Jc @7
+ 
+
+ROJO GOMEZ
+~#|e+ | M5.5 Jv50 Jc @2
+CANAL DE TEZONTLE 143-B
+~#|e+ | M5.5 Jv50 Jc @2
+COL. DR. A. ORTIZ TIRADO
+~#|e+ | M5.5 Jv50 Jc @2
+DELEG. IZTAPALAPA
+~#|e+ | M5.5 Jv50 Jc @2
+CIUDAD DE MEXICO,. C.P. 09020
+~#|e+ | M5.5 Jv50 Jc @2
+TEL. 2595-0100 OPCION 2-3
+~#|e+ | M5.5 Jv50 Jc @2
+FAX 5600-2456
+~#|e+ | M58.58 Jv50 Jr @2
+~#|e+ | M35.35 Jv50 Jc @2
+R.F.C.  PDA 670119 AB9
+
+~]
+
+
+
+~#
+~[20
+~#|e+ 15.1 l50 ulr0|M55.55 Jv50 Jc @7
+ 
+
+XICOTENCATL
+~#|e+ | M5.5 Jv50 Jc @2
+XICOTENCATL N° 327
+~#|e+ | M5.5 Jv50 Jc @2
+COL. DEL CARMEN COYOACAN
+~#|e+ | M5.5 Jv50 Jc @2
+DELEG. COYOACAN
+~#|e+ | M5.5 Jv50 Jc @2
+CIUDAD DE MEXICO,. C.P. 04000
+~#|e+ | M5.5 Jv50 Jc @2
+TEL. 2595-0100 OPCION 2-4
+~#|e+ | M5.5 Jv50 Jc @2
+FAX 56691616
+~#|e+ | M58.58 Jv50 Jr @2
+~#|e+ | M35.35 Jv50 Jc @2
+CAM NAL. DE COM 045967
+~]
+
+
+~#
+~[20
+~#|e+ 15.1 l50 ulr0|M55.55 Jv50 Jc @7
+ 
+
+TACUBA
+~#|e+ | M5.5 Jv50 Jc @2
+CALZ. MEXICO TACUBA N° 687
+
+~#|e+ | M5.5 Jv50 Jc @2
+COL. TACUBA
+
+~#|e+ | M5.5 Jv50 Jc @2
+DELEG. MIGUEL HIDALGO
+
+~#|e+ | M5.5 Jv50 Jc @2
+CIUDAD DE MEXICO,. C.P. 11410
+
+~#|e+ | M5.5 Jv50 Jc @2
+TEL. 2595-00 OPCION 2-2
+
+~#|e+ | M5.5 Jv50 Jc @2
+FAX 5658-2615
+
+
+
+~]
+
+~#
+~[20
+~#|e+ 15.1 l50 ulr0|M55.55 Jv50 Jc @7
+ 
+
+CENTRO DE DISTRIBUCION
+~#|e+ | M5.5 Jv50 Jc @2
+EMILIO CARRANZA N° 103
+
+~#|e+ | M5.5 Jv50 Jc @2
+COL. ALBERT
+
+~#|e+ | M5.5 Jv50 Jc @2
+DELEG. BENITO JUAREZ
+
+~#|e+ | M5.5 Jv50 Jc @2
+CIUDAD DE MEXICO,. C.P. 03560
+
+~#|e+ | M5.5 Jv50 Jc @2
+TEL. 2595-00 OPCION 2-6
+
+~#|e+ | M5.5 Jv50 Jc @2
+FAX EXT. 3030
+
+
+
+~]
+
+
+~]
+
+
+~[6 350 76
+~#
+~#
+~[80
+~#|e+ 15.1 f4.30 d0  gulrg |M35.35 Jv50 Jc @5
+DATOS DEL CLIENTE 
+~#|e+ 15.1  gdrg |M300.300 Jv50 Jl @1
+MAKING DEVS SC                    (127190)
+
+CALZADA ERMITA IZTAPALAPA No.278 Int.501 
+
+SINATEL
+
+Iztapalapa , Ciudad de Mexico, , 09470
+
+MDE130712JA6
+
+Depto:     Vo.Bo.: 
+~]
+
+
+~#
+~[20
+
+~#
+~[30 
+
+~#
+~[30
+~#|e+ 15.1 f4.30 d0  gulrg |M35.35 Jv50 Jc @5
+FACTURA
+~]
+
+~#
+~[70
+~#|e+ 15.1 u0 |M100.100 Jc @6
+ESY@3032314
+~]
+~]
+~#
+~#|e+ 15.1 f4.30 d0  |M35.35 Jv50 Jc @5
+CIUDAD DE MEXICO, 
+~]
+
+
+~[110 
+~#
+~[90
+~#|e+ 15.1 f4.30 |M35.35 Jv50 Jc @5
+FECHA
+~#|e+ 15.1   gdlrug |M135.135 Jv50 Jc @?
+2017-08-11T12:33:48
+~]
+~]
+~]
+
+
+~[2 18 30 18 18 18
+~#
+~#|10.1  f4.30 e+ |M60.60Jc@5
+FECHA DE CERTIFICACION
+~#|10.1  f4.30 e+ |M60.60Jc@5
+Folio Fiscal:UUID
+~#|10.1  f4.30 e+ |M60.60Jc@5
+LUGAR DE EXPEDICION
+~#|10.1  f4.30 e+ |M60.60Jc@5
+NO. SERIE CERTIFICADO
+~#|10.1  f4.30 e+ |M60.60Jc@5
+NO.SERIE CERTIFICADO DEL SAT
+~#
+~#|13.1 e+ |M60.60Jc@9
+2017-08-11T12:34:07 
+~#|13.1 e+ |M60.60Jc@9
+0D763360-A702-4C36-B0CE-04FD5B4A6FDC
+~#|13.1 e+  |M60.60Jc@9
+Tienda: Rojo Gomez
+~#|13.1 e+  |M60.60Jc@9
+00001000000404372819
+~#|13.1 e+  |M60.60Jc@9
+00001000000404481161
+~]
+
+
+~[2 25 40 20 20 
+~#
+~#
+~[20
+~#|e+ 15.1 f4.30  r0|M35.35 Jv50 Jc @5
+SU PEDIDO 
+
+~#
+~[50 50
+~#
+~[50
+~#|e+ 15.1 f4.30 |M55.55 Jv50 Jc @5
+NUMERO
+~#|e+ 15.1    |M80.80 Jv50 Jc @9
+
+~]
+
+
+~#
+~[50
+~#|e+ 15.1 f4.30 |M55.55 Jv50 Jc @5
+FECHA
+~#|e+ 15.1   |M80.80 Jv50 Jc @9
+
+~]
+~]
+~]
+
+
+
+~#
+~[40
+~#|e+ 15.1 f4.30 |M35.35 Jv50 Jc @5
+METODO DE PAGO
+~#|e+ 15.1   |M145.145 Jv50 Jc @9
+01-EFECTIVO NUM. CTA. 
+~]
+
+
+
+~#
+~[20
+~#|e+ 15.1 f4.30 r0|M35.35 Jv50 Jc @5
+EMBALAJE
+~#|e+ 15.1   |M145.145 Jv50 Jc @9
+
+~]
+
+~#
+~[20
+~#|e+ 15.1 f4.30 |M35.35 Jv50 Jc @5
+CONTROL
+@9
+
+~#
+~[50 50
+~#
+~[50
+~#|e+ 15.1 f4.30 |M35.35 Jv50 Jc @5
+NUMERO
+~#|e+ 15.1   |M80.80 Jv50 Jc @9
+~]
+
+
+
+~#
+~[50
+~#|e+ 15.1 f4.30 |M35.35 Jv50 Jc @5
+FECHA
+~#|e+ 15.1   |M80.80 Jv50 Jc @9
+~]
+~]
+~]
+~]
+
+
+~[3 30 55 25 30 13 11
+~#
+~#
+~[30
+~#|e+ 15.1 f4.30  r0 |M35.35 Jv50 Jc @5
+REMISION
+~#|e+ 15.1   u0 |M80.80 Jv50 Jc @9
+~]
+
+
+~#
+~[40
+~#|e+ 15.1 f4.30 |M35.35 Jv50 Jc @5
+VIA DE EMBARQUE
+~#|e+ 15.1  |M80.80 Jv50 Jc @9
+
+~]
+
+~#
+~[20
+~#|e+ 15.1 f4.30 |M35.35 Jv50 Jc @5
+TALON
+~#|e+ 15.1 |M80.80 Jv50 Jc @9
+~]
+
+~#
+~[30
+~#|e+ 15.1 f4.30 |M35.35 Jv50 Jc @5
+TARJETA DE CONFIANZA
+~#|e+ 15.1 |M80.80 Jv50 Jc @9
+~]
+
+~#
+~[11
+~#|e+ 15.1 f4.30 |M35.35 Jv50 Jc @5
+AGENTE
+~#|e+ 15.1 |M80.80 Jv50 Jc @9
+
+~]
+
+~#
+~[11
+~#|e+ 15.1 f4.30   |M35.35 Jv50 Jc @5
+TIENDA
+~#|e+ 15.1   ul0 |M80.80 Jv50 Jc @9
+~]
+~]
+
+~[2 6 10 10 36 9 10 10 10
+~#
+~#
+~[6
+~#|e+ 15.1 f4.30  d0|M35.35 Jv50 Jc @5
+CANT.
+~#|e+ 15.1 f4.30  u0 |M48.48 Jv50 Jc @5
+~]
+
+~#
+~[10
+~#|e+ 15.1 f4.30 d0 |M35.35 Jv50 Jc @5
+UNIDAD
+~#|e+ 15.1 f4.30 u0 |M48.48 Jv50 Jc @5
+~]
+
+~#
+~[10
+~#|e+ 15.1 f4.30 d0 |M35.35 Jv50 Jc @5
+CODIGO
+~#|e+ 15.1 f4.30 u0 |M48.48 Jv50 Jc @5
+~]
+
+~#
+~[36 
+~#|e+ 15.1 f4.30 d0 |M35.35 Jv50 Jc @5
+DESCRIPCION
+~#|e+ 15.1 f4.30 u0 |M48.48 Jv50 Jc @5
+~]
+
+~#
+~[9
+~#|e+ 15.1 f4.30 d0 |M35.35 Jv50 Jc @5
+PRECIO
+~#|e+ 15.1 f4.30 u0 |M35.35 Jv50 Jc @5
+UNITARIO
+~]
+
+~#
+~[10
+~#|e+ 15.1 f4.30 d0 |M35.35 Jv50 Jc @5
+D.MAY
+~#|e+ 15.1 f4.30 u0 |M48.48 Jv50 Jc @5
+~]
+
+~#
+~[10
+~#|e+ 15.1 f4.30 d0 |M35.35 Jv50 Jc @5
+D.ESP.
+~#|e+ 15.1 f4.30 u0 |M48.48 Jv50 Jc @5
+~]
+
+
+~#
+~[10
+~#|e+ 15.1 f4.30  d0 |M35.35 Jv50 Jc @5
+IMPORTE
+~#|e+ 15.1 f4.30  lu0 |M48.48 Jv50 Jc @5
+~]
+~]
+
+~&gt;
+~F|0|
+~|e+|  Jv50 Jc @9
+"ESTE DOCUMENTO ES UNA REPRESENTACION IMPRESA DE UN CFDI"                                        Página @p de @P
+~&gt;
+~[ 2 6 10 10 36 9 10 10 10
+~#  Jc @?
+
+~#  Jc @?
+  10 
+~#  Jc @?
+ PIEZA
+~#  |l10|Jl @?
+26486 1  
+~#  |l10|Jl @?
+CARTONCILLO 50X70CM-PE-1928-BLANCO           
+~#  |r10|Jr @?
+2.08
+~#  |r10|Jr @?
+  10.00
+~#  |r10|Jr @?
+  0.00
+~#  |r10|Jr @?
+20.80
+~]
+~[ 2 6 10 10 36 9 10 10 10
+~#  Jc @?
+
+~#  Jc @?
+   1 
+~#  Jc @?
+ PIEZA
+~#  |l10|Jl @?
+9091 2   
+~#  |l10|Jl @?
+PASTA P/MOLDEAR PL-B5517-SV-[ESTUCHE]        
+~#  |r10|Jr @?
+59.33
+~#  |r10|Jr @?
+   0.00
+~#  |r10|Jr @?
+  0.00
+~#  |r10|Jr @?
+59.33
+~]
+~[ 2 6 10 10 36 9 10 10 10
+~#  Jc @?
+
+~#  Jc @?
+   2 
+~#  Jc @?
+ PIEZA
+~#  |l10|Jl @?
+11209 1  
+~#  |l10|Jl @?
+CRAYON CERA JUMBO -52-0324-[CAJILLA]         
+~#  |r10|Jr @?
+57.19
+~#  |r10|Jr @?
+   0.00
+~#  |r10|Jr @?
+  0.00
+~#  |r10|Jr @?
+114.38
+~]
+~[ 2 6 10 10 36 9 10 10 10
+~#  Jc @?
+
+~#  Jc @?
+   1 
+~#  Jc @?
+ PIEZA
+~#  |l10|Jl @?
+51403 1  
+~#  |l10|Jl @?
+PLUMON P.ANCHA COL-846020-.-[ESTUCHE]        
+~#  |r10|Jr @?
+74.96
+~#  |r10|Jr @?
+   0.00
+~#  |r10|Jr @?
+  0.00
+~#  |r10|Jr @?
+74.96
+~]
+~[ 2 6 10 10 36 9 10 10 10
+~#  Jc @?
+
+~#  Jc @?
+   1 
+~#  Jc @?
+ PIEZA
+~#  |l10|Jl @?
+53088 1  
+~#  |l10|Jl @?
+PLUMONES COLOR PEP-845722-.-[ESTUCHE]        
+~#  |r10|Jr @?
+57.20
+~#  |r10|Jr @?
+   0.00
+~#  |r10|Jr @?
+  0.00
+~#  |r10|Jr @?
+57.20
+~]
+
+~F|0|
+
+~[2 60 10 10 10 10
+~#
+~#
+~[60
+~#|e+ 15.1| M220.220 Jv50 Jc @1
+TRESCIENTOS SETENTA Y SEIS PESOS 50/100 M.N.
+~]
+~#
+~[10
+~#|e+ 15.1  | M35.35 Jv50 Jl @1
+SUMA
+~#|e+ 15.1  | M35.35 Jv50 Jl @1
+Desc.May.
+~#|e+ 15.1  | M35.35 Jv50 Jl @1
+Desc.Esp.
+~]
+
+~#
+~[10
+~#|e+ 15.1  | M73.73 Jv50 Jr @1
+326.67
+~#|e+ 15.1  | M73.73 Jv50 Jr @1
+2.10
+~#|e+ 15.1  | M73.73 Jv50 Jr @1
+0.00
+~]
+~#
+~[10
+~#|e+ 15.1  | M35.35 Jv50 Jl @1
+SUBTOTAL
+~#|e+ 15.1  | M35.35 Jv50 Jl @1
+IVA
+~#|e+ 15.1  | M35.35 Jv50 Jl @1
+TOTAL
+~]
+
+~#
+~[10
+~#|e+ 15.1  | M73.73 Jv50 Jr @1
+324.57
+~#|e+ 15.1  | M73.73 Jv50 Jr @1
+51.93
+~#|e+ 15.1  | M73.73 Jv50 Jr @1
+376.50
+~]
+~]
+
+~[2 30 60
+~#
+~#
+~[30
+~#D M450.450 "0D763360-A702-4C36-B0CE-04FD5B4A6FDC.bmp";
+~]
+
+
+
+~#
+~[60
+~#|e+ 15.1  glrg u0 |M200.200 Jv50 Jl @1
+
+
+~]
+
+
+~[60 20 
+
+~#
+~[40
+~#|e+  l50 15.1  gulg  dr0 |M35.35 Jv50 Jl @2
+PAGO EN UNA SOLA EXHIBICION
+~#|e+  15.1 udr0 |M30.30 Jv50 Jl @4
+DEBO (EMOS) Y PAGARE (EMOS) INCONDICIONALMENTE A LA ORDEN DE: PAPELERA DABO S.A. DE C.V. EN ESTA  
+~#|e+  15.1 udr0 |M30.30 Jv50 Jl @4
+CIUDAD O EN CUALQUIER OTRA QUE SE ME (NOS) REQUIERA, EN LA FECHA INDICADA, EL IMPORTE TOTAL DE ESTA 
+~#|e+  15.1 udr0 |M30.30 Jv50 Jl @4
+FACTURA, VALOR RECIBIDO A MI (NUESTRA) ENTERA SATISFACCION, LA FALTA DE PAGO OPORTUNO DE ESTA 
+~#|e+  15.1 udr0 |M30.30 Jv50 Jl @4
+FACTURA CAUSARA INTERES MORATORIOS A RAZON DE    % MENSUAL SIN QUE POR ELLO SE ENTIENDA
+~#|e+  15.1 udr0 |M30.30 Jv50 Jl @4
+PRORROGADO EL PLAZO, LA FIRMA PUESTA EN CUALQUIER PARTE DE ESTE DOCUMENTO, HACE LAS VECES DE
+~#|e+  15.1 udr0 |M30.30 Jv50 Jl @4
+ACEPTACION DEL MISMO EN LOS TERMINOS Y CONDICIONES ANTES DESCRITOS.
+~#|e+  15.1  gdug ur0 |M30.30 Jv50 Jl @4
+~]
+
+~#
+~[20
+
+
+
+~#
+~[10
+
+~#|e+  15.1 gudlrg dl0|M177.177 Jv50 Jl @4
+~#|e+  15.1 grg l0 |M30.30 Jv50 Jc @1
+FIRMA
+~]
+~]
+~]
+~]
+
+~[2 90
+~#
+~#|e+ 15.1  | M5.5 Jv50 Jl @4
+CADENA ORIGINAL DEL COMPLEMENTO DE CERTIFICACION DIGITAL DEL SAT
+
+||1.0|0D763360-A702-4C36-B0CE-04FD5B4A6FDC|2017-08-11T12:34:07|acdhuD7G55ehpRKMUN6EqJ8HK3X5ELDHZL4A4uZ6vmhfF9i4S73V8MvRaLi4zngWKpCnPihuDJODjdGy36iltiusFNZJVGv4Ojgxsbv2Y9UiyJ5Iqz8lisvDmpApB2ruCReKnmff38mB8UzB0UCwrXAOWYgG0hGa299yV3Q/tOIMJcgWIo+p29hbAG1US+y0AzPA3ELtiCbzyrwtV8LtpLA+tFHtfFk4iXTrcK7WAEG94y9MlazGRY0CdIdLSOD4DBKFVr0h+gFBOm4fk5PCWsF2KzJb6xDT9MNezFe/ReWuZOpK7npmTQinhi9zLwMGBVsiN2bVbdnMByReEsO3EQ==|y2rL9K6uGvUwzITUoMxEeapbZhas3/He91RtCesaacevwCSnMr6EmeA9+YO/UM0g97FxukT6LPjvvp/4A2gijKnDAcslRWtolTxcmjwAjMtclCNPt6VLLoz6t3zhdaVkh3odeyHqEDNsmAHDZmaA6j84nEcgeVjeQMASUVOjr0Vc+RpTQJvi3KwoTMzpxWkUIrhmg6aqG9CtYMo8HvMBDgwCr6Mmbkxv3x/lyEAOYUQq31ePvUadshDVNv0xfCt6sA/l+G0p/UlAczGFHXaTwRHfB3kTkTZGjmvOy1hsUWYtjJF+WKas/DEBq80XhCSV6YtoTNdSayHzrNH2jgBnJg==|00001000000404481161||
+~#
+~#|e+ 15.1 u0 | M5.5 Jv50 Jl @4
+SELLO DIGITAL DEL CFDI: acdhuD7G55ehpRKMUN6EqJ8HK3X5ELDHZL4A4uZ6vmhfF9i4S73V8MvRaLi4zngWKpCnPihuDJODjdGy36iltiusFNZJVGv4Ojgxsbv2Y9UiyJ5Iqz8lisvDmpApB2ruCReKnmff38mB8UzB0UCwrXAOWYgG0hGa299yV3Q/tOIMJcgWIo+p29hbAG1US+y0AzPA3ELtiCbzyrwtV8LtpLA+tFHtfFk4iXTrcK7WAEG94y9MlazGRY0CdIdLSOD4DBKFVr0h+gFBOm4fk5PCWsF2KzJb6xDT9MNezFe/ReWuZOpK7npmTQinhi9zLwMGBVsiN2bVbdnMByReEsO3EQ==
+
+SELLO DEL SAT: y2rL9K6uGvUwzITUoMxEeapbZhas3/He91RtCesaacevwCSnMr6EmeA9+YO/UM0g97FxukT6LPjvvp/4A2gijKnDAcslRWtolTxcmjwAjMtclCNPt6VLLoz6t3zhdaVkh3odeyHqEDNsmAHDZmaA6j84nEcgeVjeQMASUVOjr0Vc+RpTQJvi3KwoTMzpxWkUIrhmg6aqG9CtYMo8HvMBDgwCr6Mmbkxv3x/lyEAOYUQq31ePvUadshDVNv0xfCt6sA/l+G0p/UlAczGFHXaTwRHfB3kTkTZGjmvOy1hsUWYtjJF+WKas/DEBq80XhCSV6YtoTNdSayHzrNH2jgBnJg==
+~]
+
+
+~[2 90
+~#
+~#
+~[90
+~#|e+   | M35.35 Jv50 Jc @2
+~#|e+   | M35.35 Jv50 Jc @9
+"ESTE DOCUMENTO ES UNA REPRESENTACION IMPRESA DE UN CFDI"                                        Página @p de @P
+~]
+~]
+~&gt;</fa:hfd>
+       </fa:Datos>
+</cfdi:Addenda>
+</cfdi:Comprobante>

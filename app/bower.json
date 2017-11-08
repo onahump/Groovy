@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "authors": [
+    "nahumaking <oswaldo@makingdevs.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "webroot/third-party",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "vertx3-eventbus-client": "^3.4.2",
+    "sockjs-client": "^1.1.4"
+    "handlebars": "^4.0.10" 
+  }
+}

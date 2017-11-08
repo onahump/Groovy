@@ -1,0 +1,89 @@
+<training organization="MakingDevs">
+  <roadmap>
+    <category name="Experto en Springframework">
+      <course duration="10" sessions="2">
+        Procesamiento con Spring Batch
+      </course>
+      <course duration="10" sessions="2">
+        Aplicaciones web con Springframework y jQuery
+      </course>
+      <course duration="10" sessions="2">
+        Seguridad en aplicaciones Java con Spring Security
+      </course>
+      <course duration="10" sessions="2">
+        JEE e integración con Springframework
+      </course>
+      <course duration="10" sessions="2">
+        Diseño de aplicaciones con Springframework
+      </course>
+      <course duration="10" sessions="2">
+        Acceso a datos con Springframework
+      </course>
+      <course duration="10" sessions="2">
+        Desarrollo web con Springframework
+      </course>
+    </category>
+    <category name="Técnicas y métodos ágiles">
+      <course duration="10" sessions="2">
+        Programación funcional aplicada
+      </course>
+      <course duration="10" sessions="2">
+        Principios ágiles para desarrolladores de software
+      </course>
+      <course duration="10" sessions="2">
+        Testing de aplicaciones
+      </course>
+      <course duration="10" sessions="2">
+        Diseñando software con TDD y ATDD
+      </course>
+      <course duration="10" sessions="2">
+        Técnicas y métodos de integración continua
+      </course>
+    </category>
+    <category name="El ecosistema Groovy">
+      <course duration="10" sessions="2">
+        Productividad con Grails
+      </course>
+      <course duration="10" sessions="2">
+        Construyendo software con Gradle
+      </course>
+      <course duration="10" sessions="2">
+        Modularización y plugins en Grails
+      </course>
+      <course duration="10" sessions="2">
+        Productividad con Groovy
+      </course>
+      <course duration="10" sessions="2">
+        El lenguaje dinámico Groovy
+      </course>
+      <course duration="10" sessions="2">
+        Desarrollo de aplicaciones con Grails
+      </course>
+    </category>
+    <category name="Desarrollo web con Javascript">
+      <course duration="10" sessions="2">
+        Desarrollo web con jQuery
+      </course>
+      <course duration="10" sessions="2">
+        Desarrollo de Single Page Applications
+      </course>
+      <course duration="10" sessions="2">
+        Aplicaciones web con Springframework y jQuery
+      </course>
+      <course duration="10" sessions="2">
+        CoffeeScript en aplicaciones web
+      </course>
+    </category>
+    <category name="Desarrollo con Scala">
+      <course duration="10" sessions="2">
+        Desarrollo web con Scala
+      </course>
+      <course duration="10" sessions="2">
+        Programación avanzada con Scala
+      </course>
+      <course duration="10" sessions="2">
+        Fundamentos del lenguaje Scala
+      </course>
+    </category>
+  </roadmap>
+</training>
